@@ -59,6 +59,10 @@ var foo = function(x) {
 foo(3)
 {% endhighlight %}
 
+Test of LaTeX Math
+
+$\mathbb{E}[\hat{\theta}]=\theta$
+
 ## Boxes
 You can add notification, warning and error boxes like this:
 
