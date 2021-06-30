@@ -61,7 +61,7 @@ foo(3)
 
 Test of LaTeX Math
 
-$\mathbb{E}[\hat{\theta}]=\theta$
+$$ \mathbb{E}[\hat{\theta}]=\theta $$
 
 ## Boxes
 You can add notification, warning and error boxes like this:
