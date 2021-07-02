@@ -2,6 +2,8 @@
 layout: post
 title: Neovim Setups for Data Science
 subtitle: Just put the link of the post in Medium 
+gh-repo: AlfredSAM/alfredsam.github.io
+gh-badge: [star, fork, follow]
 thumbnail-img: /assets/img/seattle_2016_2.png
 tags: [Neovim, Data Science, Command Line, Lua, Medium, post]
 comments: true
