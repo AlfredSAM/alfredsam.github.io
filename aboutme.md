@@ -1,16 +1,20 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Sharing for happiness, welfare, and fun!
+cover-img: /assets/img/mount_rainier_2016.jpg
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Alfred F. SAM. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- I work as a data scientist. 
+- My daily works involve applications of machine learning and statistics techniques to solve for various data challenges, e.g. predictive models for health risks and interpretability.
+- Deeply impressed by Paul Anthony Samuelson's great textbook _Economics_, I am always interested in Econometrics modeling, applied Microeconomics, and game theory.
+- I am fond of sharing, with the belief of my university motto: _Education for service_. In recent years I enjoy giving lectures in university if time allows.
 
-What else do you need?
 
 ### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+"Life was like a box of chocolates, you never know what you’re gonna get."
+
+Exactly it describes my past experience. I was fascinated by Economics and game theory when I was an undergraduate, but I determined to pursue the PhD degree in Marketing in business school. When I tried preparing the career in academics, I fell in love with Micro-econometrics and machine learning and made up my mind to explore the interaction between business strategies and consumers’ behaviors in industry instead of university. I also like sharing, so in recent years I discuss my experience and findings with the youngsters (I am too!) in the university. I should have begun writing earlier, and now I have a chance.
