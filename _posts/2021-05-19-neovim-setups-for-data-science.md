@@ -3,7 +3,7 @@ layout: post
 title: Neovim Setups for Data Science
 subtitle: Just put the link of the post in Medium 
 gh-badge: [star, fork, follow]
-thumbnail-img: /assets/img/seattle_2016_2.jpg
+thumbnail-img: /assets/img/seattle_2016_2
 tags: [Neovim, Data Science, Command Line, Lua, Medium, post]
 comments: true
 ---
