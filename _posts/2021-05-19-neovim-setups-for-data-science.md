@@ -6,7 +6,7 @@ cover-img:
 gh-repo: AlfredSAM/alfredsam.github.io
 gh-badge: [star, fork, follow]
 thumbnail-img: /assets/img/seattle_2016_2.png
-tags: [Neovim, Data Science, Command Line, Lua, Medium, post]
+tags: [Neovim, Data Science, Command Line, Lua, Medium]
 comments: true
 ---
 
@@ -14,4 +14,4 @@ After several trials to directly write posts in [my medium](https://alfredfaisam
 
 
 This is my first post published in [Neovim Setups for Data Science
-](https://medium.com/geekculture/neovim-setups-for-data-science-5ea251e3735f). In recent years I use [Neovim](https://neovim.io/) and [sublime text](https://www.sublimetext.com/) for coding works. They are both well-known editors more efficient than current electron-based editors, such as [atom](https://atom.io/), [vscode](https://code.visualstudio.com/), [rstudio](https://www.rstudio.com/), and etc, always suffering latency and overhead problems. [Neovim](https://neovim.io/) is primitive and easily set up in unix-like systems. Generally speaking, Linux system (NO GUI) is usually preferred in the cloud or server. If one can be familiar with [Neovim](https://neovim.io/) or [vim](https://www.vim.org/), then the remote working mode is so convenient: one can just use the lightweight notebook to ssh connect to the cloud and server from anywhere Internet can cover. Within this post I just introduce the latest version Neovim 0.5 much approaching to [Lua](https://www.lua.org/), and most importantly several typical plugins for data science are shared. Just for fun! 
+](https://medium.com/geekculture/neovim-setups-for-data-science-5ea251e3735f). In recent years I use [Neovim](https://neovim.io/) and [sublime text](https://www.sublimetext.com/) for coding works. They are both well-known editors more efficient than current electron-based editors, such as [atom](https://atom.io/), [vscode](https://code.visualstudio.com/), [rstudio](https://www.rstudio.com/), and etc, always suffering latency and overhead problems. [Neovim](https://neovim.io/) is primitive and easily set up in unix-like systems. Generally speaking, Linux system (NO GUI) is usually preferred in the cloud or server. If one can be familiar with [Neovim](https://neovim.io/) or [vim](https://www.vim.org/), then the remote working mode is so convenient: one can just use the lightweight notebook to ssh connect to the cloud and server from anywhere Internet can cover. Within this post I just introduce the latest version Neovim 0.5 much approaching to [Lua](https://www.lua.org/), and most importantly several typical plugins for data science are shared. One can also check my codes in [my Github](https://github.com/AlfredSAM/medium_blogs/tree/main/Neovim_Setups_for_Data_Science/nvim). Just for fun! 
