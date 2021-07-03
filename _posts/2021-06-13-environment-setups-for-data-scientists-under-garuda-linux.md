@@ -4,7 +4,7 @@ title: Environment Setups for Data Scientists under Garuda Linux
 subtitle: Introduction of Linux system setups in the viewpoint of data science using the fancy Garuda Linux as example
 gh-repo: AlfredSAM/alfredsam.github.io
 gh-badge: [star, fork, follow]
-thumbnail-img:https://github.com/AlfredSAM/medium_blogs/blob/main/Environment_Setups_Data_Science_Garuda_Linux/pic/Desktop.png
+thumbnail-img: https://github.com/AlfredSAM/medium_blogs/blob/main/Environment_Setups_Data_Science_Garuda_Linux/pic/Desktop.png
 tags: [Garuda Linux, Data Science, Miniconda, Homebrew, Julia, Medium]
 comments: true
 ---
