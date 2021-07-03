@@ -2,10 +2,9 @@
 layout: post
 title: Neovim Setups for Data Science
 subtitle: Introduction of Neovim 0.5 and recommended plugins for data science 
-cover-img:
+cover-img: /assets/img/seattle_2016_2.jpg
 gh-repo: AlfredSAM/alfredsam.github.io
 gh-badge: [star, fork, follow]
-thumbnail-img: /assets/img/seattle_2016_2.png
 tags: [Neovim, Data Science, Command Line, Lua, Medium]
 comments: true
 ---
