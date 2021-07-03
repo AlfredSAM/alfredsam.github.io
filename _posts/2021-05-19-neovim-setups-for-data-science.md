@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Neovim Setups for Data Science
-subtitle: Just put the link of the post in Medium 
+subtitle: Introduction of Neovim 0.5 and recommended plugins for data science 
 cover-img:
 gh-repo: AlfredSAM/alfredsam.github.io
 gh-badge: [star, fork, follow]
