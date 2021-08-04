@@ -76,12 +76,12 @@ Once the concept is clear for the algorithms, one can code it in any language. T
 
 
 
-![managing envs for projects 1](https://github.com/AlfredSAM/medium_blogs/blob/main/bridging_python_r/img/env1.png)
+![managing envs for projects 1](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/env1.png)
 *Source: https://miro.medium.com/max/1263/1*RJXS5hapodrGXvmIBhUEEw.png*
 
 
 
-![managing envs for projects 1](https://github.com/AlfredSAM/medium_blogs/blob/main/bridging_python_r/img/env2.png)
+![managing envs for projects 1](https://github.com/AlfredSAM/medium_blogs/blob/main/bridging_python_r/img/env2.png?raw=true)
 *Source: https://nbisweden.github.io/excelerate-scRNAseq/logos/conda_illustration.png*
 
 
