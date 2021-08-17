@@ -593,7 +593,7 @@ open -na rstudio
 
 Then the **Rstudio** can be opened for use. Please note that now **Rstudio** is using **R** within the specified **environment**. 
 
-: .box-warning}
+{: .box-warning}
 **Warning:** If one wanna install the **R** package using `conda`. Please shut down the **Rstudio** at first, just like you shut down Jupyter lab before the installation of the packages before.
 
 However, if one determines using the **R** built-in package management, then just do it in **Rstudio**. One can also check the [crash course](https://www.youtube.com/watch?v=BvKETZ6kr9Q) to use **Rstudio**.
