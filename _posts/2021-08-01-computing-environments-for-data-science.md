@@ -9,6 +9,9 @@ tags: [Conda, Python, R, Environments, Jupyter Lab, Rstudio]
 comments: true
 ---
 
+(Updates on 2021/08/22: Thanks to the great help of [Charles WEI](charles@hkbu.edu.hk), [Gary GU](taize_gu@hkbu.edu.hk), and [Ching-yin WAN](cywan123@hkbu.edu.hk), I mainly add the supplements for Windows users. They are also my TAs for the course, so please contact them when you find any problem about the setups for Python and R.)
+
+
 (This post is dedicated to part of the bridging courses for the oriented students pursuing data science related master degrees in the Economics department of Hong Kong Baptist University. Interested audience can also refer to this post as the very beginning for the journey to the data science. Let's get started!)
 
 Hello, everyone! Thanks so much for your application for the data science related master in the Economics department of Hong Kong Baptist University. First of all, your enthusiasm and interest on data science are highly appreciated, since this is one of the most exciting areas to create great welfare for the human beings. In most of the applications of data science, programming is the usual way (probably the only way) to implement various algorithms and models on distinct types of data, structured or unstructured, textual or numeric. Among multiple popular programming languages, [**Python**](https://www.python.org/about/) and [**R**](https://www.r-project.org/about.html) are undoubtedly the most common choices.
@@ -117,11 +120,23 @@ In this section, we talk about how to set up **environments** for **Python**. Th
 
 ![Install for me only](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/install_for_me_only.png)
 
-After installation, please open the command line interface (CLI) in your system: **Terminal app** in MacOS or **Command Prompt** in Windows. First of all, please check that whether you `conda` **environment** is activated. Two ways can be tried. One is to observe whether `(base)` appear at the beginning of the command line. For example,
+_In Mac_
 
-![conda cmd](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/conda_cmd.png)
 
-_Source: https://stackoverflow.com/questions/52597174/do-i-need-to-activate-a-conda-environment-everytime-on-system-initialization_
+![Install for me only](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/install_for_me_only_win_1.png)
+
+![Install for me only](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/install_for_me_only_win_2.png)
+
+_In Windows_
+
+
+
+After installation, please open the command line interface (CLI) in your system and start the tour with `conda`. In Mac, the default terminal emulator preinstalled in the system is **Terminal app**, which can be found in `launchpad/Other/Terminal`. Of course, other terminal emulators are also available for Mac, and one can check [**iTerm2**](https://iterm2.com/) and [**Kitty**](https://sw.kovidgoyal.net/kitty/) for advanced exploration. In Windows, in order to facilitate the usage it is highly recommended to open **Anaconda Prompt(Miniconda3)** (if **Miniconda** is installed) or **Anaconda Prompt(anaconda3)** (if **Anaconda** is installed) in _windows start menu_. E.g.
+
+![Open Anaconda Prompt in win](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/open_anaconda_prompt_win.png)
+
+
+First of all, please check that whether you `conda` **environment** is activated. Two ways can be tried. One is to observe whether `(base)` appear at the beginning of the command line. For example,
 
 
 ![conda mac](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/conda_mac.jpeg)
@@ -129,7 +144,13 @@ _Source: https://stackoverflow.com/questions/52597174/do-i-need-to-activate-a-co
 _Source: https://www.youtube.com/watch?v=1VVCd0eSkYc_
 
 
-The second way is try inputting `conda env list` and check whether it works. If the information of `Conda command not found` shows, then `conda` **environment** is **NOT** activated. In general, after the installation with _defaults_ one should find that `conda` **environment** is automatically activated in MacOS, but **NOT** for windows. Actually we can use the following command to activate the `(base)`:
+![conda cmd](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/conda_cmd.png)
+
+_Source: https://stackoverflow.com/questions/52597174/do-i-need-to-activate-a-conda-environment-everytime-on-system-initialization_
+
+
+
+The second way is try inputting `conda env list` and check whether it works. If the information of `Conda command not found` shows, then `conda` **environment** is **NOT** activated. In general, with the  **Anaconda Prompt(Miniconda3)** opened in Windows, `conda` **environments** should be automatically loaded. Otherwise, re-installation should solve it. On the other hand, `conda` **environment** is automatically activated in **Terminal app** if one just follows the defaults in the installation process. However, one may need to activate it by hand if this is **NOT** the case. Actually we can use the following command to activate the `(base)`:
 
 ```
 source /path-to-miniconda3/bin/activate
@@ -325,7 +346,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 From such example, one may find that it is so easy to install or remove the package within **conda environment**. Please just make sure that you are in the _correct_ **environment** at first. Secondly, google the package you are interested in and then follow the instruction to use `conda` with `conda-forge` channel or `pip` to install it, but **NOT** both for repeated installation.
 
-Up until now, we have known how to manage the **environments** and _packages_ within some **environment**. With separate **environments** we can handle different **projects**. One can easily set up the _version_ for the **Python** interpreter, as wells as the _packages_. It is strongly recommended to search for the information for the targeted _package_ at first and get the basic information about the installation commands. Currently within some **conda environment** `conda` with `conda-forge` channel or `pip` are both supported for the installation of _packages_. However, **replication** and **reproducibility** are still not illustrated up until now. How can your colleagues try testing your codes and reproduce your results? Ideally, they need to have _exact the same_ **environment** as yours. Is it any simple way to _copy_ the **environment**? The answer is yes. Please note the results when inputting `conda list`, and one can find that actually this is just the table and data frame to record the information within the **environment**. Fortunately, `conda` provides the simple command to _export_ the information for the **environment**. First, one needs to find the _location_ to store the such file using the command line. We can use `cd` in **Terminal app** in MacOS and `dir` in **Command Prompt (cmd.exe)** in Windows to change the working directory in the command line. Then, please make sure you are in the **conda environment** you wanna export, for example, _bridging_python_.
+Up until now, we have known how to manage the **environments** and _packages_ within some **environment**. With separate **environments** we can handle different **projects**. One can easily set up the _version_ for the **Python** interpreter, as wells as the _packages_. It is strongly recommended to search for the information for the targeted _package_ at first and get the basic information about the installation commands. Currently within some **conda environment** `conda` with `conda-forge` channel or `pip` are both supported for the installation of _packages_. However, **replication** and **reproducibility** are still not illustrated up until now. How can your colleagues try testing your codes and reproduce your results? Ideally, they need to have _exact the same_ **environment** as yours. Is it any simple way to _copy_ the **environment**? The answer is yes. Please note the results when inputting `conda list`, and one can find that actually this is just the table and data frame to record the information within the **environment**. Fortunately, `conda` provides the simple command to _export_ the information for the **environment**. First, one needs to find the _location_ to store the such file using the command line. We can use `cd` in **Terminal app** in MacOS and `dir` in **Anaconda Prompt (Miniconda3)** in Windows to change the working directory in the command line. Then, please make sure you are in the **conda environment** you wanna export, for example, _bridging_python_.
 
 ```
 conda env export > bridging_python_env.yml
@@ -412,13 +433,17 @@ pip install 'jupyterlab>=3.0.0,<4.0.0a0'
 
 but **NOT** _both_.
 
+{: .box-warning}
+**Warning:** Windows users need to use **double quotes** instead of **single quote** for the _strings_. Otherwise, the **Anaconda Prompt (Miniconda3)** will return errors.
+
+
 Here we just restrict its version below 4.0. The main reason is to avoid its compatibility issues with other _packages_ or _plugins_. One can also check the [video](https://www.youtube.com/watch?v=7wfPqAyYADY) for the basic usage of Jupyter lab. Actually, Jupyter lab is the [**integrated development environment (IDE)**](https://en.wikipedia.org/wiki/Integrated_development_environment) for development, and one can view it as the tool for easy coding. One can find the example `.ipynb` files used in this course, which are opened and edited using Jupyter lab. After the installation, one can input `jupyter lab`, and then a new tab will be activated in your browser (chrome based browser is highly recommended). Now we can play with it.
 
 
 On the other hand, one can also check the useful plugins to enhance Jupyter lab. Please note
 
 {: .box-warning}
-**Warning:** Shut down the Jupyter lab before installing the _packages_ or _plugins_.
+**Warning:** Shut down the `jupyter lab` **before** installing any _packages_ or _plugins_. After the installation to complete, then re-enter `jupyter lab`.
 
 
 
@@ -535,7 +560,7 @@ On the other hand, one can quit **R** back to the command line, and then use `co
 conda install -c conda-forge r-aer
 ```
 
-What are the differences between these two methods? In terms of application, no obvious differences for both methods. However, one may find that some **R** packages may **not** have the `conda` ones. That is, one needs to find the appropriate instructions for such **R** package installation. Two merits for the installation using `conda`. One is that the `conda` **R** packages are usually compiled for installation, which means the installation process should be fast without compilation. Another is that one can always generate the `yml` file to include the information of all **R** packages installed using `conda` for some **environment** to share with your colleagues. However, if one uses the **R** built-in package management for some packages, the information of those packages will be **NOT** shown in the `yml` file.
+What are the differences between these two methods? In terms of _application_, no obvious differences for both methods. However, one may find that some **R** packages may **not** have the `conda` ones. That is, one needs to find the appropriate instructions for such **R** package installation. Two merits for the installation using `conda`. One is that the `conda` **R** packages are usually compiled for installation, which means the installation process should be fast without compilation. Another is that one can always generate the `yml` file to include the information of all **R** packages installed using `conda` for some **environment** to share with your colleagues. However, if one uses the **R** built-in package management for some packages, the information of those packages will be **NOT** shown in the `yml` file.
 
 
 
@@ -581,11 +606,11 @@ Please note that we have installed **R** lsp package (`languageserver`) and `rpy
 
 ### Rstudio
 
-Actually, for programming in **R** we have another common option IDE, called [Rstudio](https://www.rstudio.com/). One can easily download and install it in their [website](https://www.rstudio.com/products/rstudio/download/). The tricky point is that when one firstly opens it, the following error may occur:
+Actually, for programming in **R** we have another common option IDE, called [Rstudio](https://www.rstudio.com/). One can easily download and install it in their [website](https://www.rstudio.com/products/rstudio/download/). The tricky point is that when one firstly opens it **in Mac**, the following error may occur:
 
 ![rstudio rpath](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/rstudio_error_rpath.png)
 
-The reason is that **Rstudio** cannot find the **R** path in the usual locations. Actually, one can install **R** in the global **environment** by downloading and installing it from the [R home page](https://cloud.r-project.org/). Doing so can makes **Rstudio** automatically find the path for the _global_ **R**. However, currently we have **R** installed in the **conda environment**, so what can we do can make **Rstudio** find the location of **R**. Just in the command line to activate the **conda envionment** with **R** installed in it, _bridging_python_r_ in our case. Next we input
+The reason is that **Rstudio** cannot find the **R** path in the usual locations. Actually, one can install **R** in the global **environment** by downloading and installing it from the [R home page](https://cloud.r-project.org/). Doing so can makes **Rstudio** automatically find the path for the _global_ **R**. However, currently we have **R** installed in the **conda environment**, so what can we do can make **Rstudio** find the location of **R**. Just in the **Terminal app** to activate the **conda envionment** with **R** installed in it, _bridging_python_r_ in our case. Next we input
 
 ```
 open -na rstudio
@@ -594,9 +619,20 @@ open -na rstudio
 Then the **Rstudio** can be opened for use. Please note that now **Rstudio** is using **R** within the specified **environment**. 
 
 {: .box-warning}
-**Warning:** If one wanna install the **R** package using `conda`. Please shut down the **Rstudio** at first, just like you shut down Jupyter lab before the installation of the packages before.
+**Warning:** If one wanna install the **R** packages using `conda`. Please shut down the **Rstudio** at first, just like you shut down Jupyter lab before the installation of the packages before.
 
 However, if one determines using the **R** built-in package management, then just do it in **Rstudio**. One can also check the [crash course](https://www.youtube.com/watch?v=BvKETZ6kr9Q) to use **Rstudio**.
+
+
+For **Windows users**, after installation of **Rstudio** one needs to configure the **environment variables** for it since **Windows** does **NOT** automatically handle it automatically. Follow the following to add the path for **Rstudio** and just make sure that the path is correct for your own installation.
+
+![rstudio win 1](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/rstudio_win_setup_1.png)
+
+
+With such setups, **Anaconda Prompt (Miniconda3)** should _recognize_ **Rstudio**. Therefore, please activate the dedicated **conda envionment** with **R** installed in it, _bridging_python_r_ in our case. Next we input the following to let **Rstudio** load the corresponding **conda environment**:
+
+![rstudio win 2](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/rstudio_win_setup_2.png)
+
 
 
 
