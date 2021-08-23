@@ -9,7 +9,7 @@ tags: [Conda, Python, R, Environments, Jupyter Lab, Rstudio]
 comments: true
 ---
 
-(Updates on 2021/08/22: Thanks to the great help of Charles WEI(<charles@hkbu.edu.hk>), Gary GU(<taize_gu@hkbu.edu.hk>), and Ching-yin WAN(<cywan123@hkbu.edu.hk>), I mainly add the supplements for Windows users. They are also my TAs for the course, so please contact them when you find any problem about the setups for Python and R.)
+(Updates on August 22, 2021: Thanks to the great help of Charles WEI (<charles@hkbu.edu.hk>), Gary GU (<taize_gu@hkbu.edu.hk>), and Ching-yin WAN (<cywan123@hkbu.edu.hk>), I mainly add the supplements for Windows users. They are also my TAs for the course, so please contact them when you find any problem about the setups for Python and R. **Windows users** can also refer to [Jupyter_Win](https://github.com/AlfredSAM/medium_blogs/blob/main/bridging_python_r/Jupyter_WIN/Jupyter_Win10.ipynb) for more detailed instructions, while this post is still the starting material.)
 
 
 (This post is dedicated to part of the bridging courses for the oriented students pursuing data science related master degrees in the Economics department of Hong Kong Baptist University. Interested audience can also refer to this post as the very beginning for the journey to the data science. Let's get started!)
@@ -647,6 +647,10 @@ During this post, the steps to use `conda` to manage **Python** and **R** enviro
 ## References
 
 * [A Quick and Easy Guide to Managing Conda Environments](https://towardsdatascience.com/a-quick-and-easy-guide-to-managing-conda-environments-87bfe7bab065)
+
+* For materials for Python preview, please check Chapter 2 - 10 in [Python for Data Analysis, 2nd Edition](https://github.com/wesm/pydata-book)
+
+* For materials for R preview, please check Part 1 and Part 2 in [Practical Data Science](https://m-clark.github.io/data-processing-and-visualization/)
 
 
 
