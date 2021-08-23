@@ -136,6 +136,13 @@ After installation, please open the command line interface (CLI) in your system 
 ![Open Anaconda Prompt in win](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/open_anaconda_prompt_win.png)
 
 
+Or one may also use the search to find it:
+
+![Open Anaconda Prompt in win search](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/open_miniconda_prompt.jpeg)
+
+
+
+
 First of all, please check that whether you `conda` **environment** is activated. Two ways can be tried. One is to observe whether `(base)` appear at the beginning of the command line. For example,
 
 
