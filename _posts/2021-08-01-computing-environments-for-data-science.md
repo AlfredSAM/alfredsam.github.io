@@ -9,7 +9,7 @@ tags: [Conda, Python, R, Environments, Jupyter Lab, Rstudio]
 comments: true
 ---
 
-(Updates on 2021/08/22: Thanks to the great help of [Charles WEI](charles@hkbu.edu.hk), [Gary GU](taize_gu@hkbu.edu.hk), and [Ching-yin WAN](cywan123@hkbu.edu.hk), I mainly add the supplements for Windows users. They are also my TAs for the course, so please contact them when you find any problem about the setups for Python and R.)
+(Updates on 2021/08/22: Thanks to the great help of Charles WEI(<charles@hkbu.edu.hk>), Gary GU(<taize_gu@hkbu.edu.hk>), and Ching-yin WAN(<cywan123@hkbu.edu.hk>), I mainly add the supplements for Windows users. They are also my TAs for the course, so please contact them when you find any problem about the setups for Python and R.)
 
 
 (This post is dedicated to part of the bridging courses for the oriented students pursuing data science related master degrees in the Economics department of Hong Kong Baptist University. Interested audience can also refer to this post as the very beginning for the journey to the data science. Let's get started!)
@@ -123,9 +123,9 @@ In this section, we talk about how to set up **environments** for **Python**. Th
 _In Mac_
 
 
-![Install for me only](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/install_for_me_only_win_1.png)
+![Install for me only](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/install_for_me_only_win_1.jpg)
 
-![Install for me only](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/install_for_me_only_win_2.png)
+![Install for me only](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/install_for_me_only_win_2.jpg)
 
 _In Windows_
 
@@ -634,6 +634,7 @@ With such setups, **Anaconda Prompt (Miniconda3)** should _recognize_ **Rstudio*
 ![rstudio win 2](https://raw.githubusercontent.com/AlfredSAM/medium_blogs/main/bridging_python_r/img/rstudio_win_setup_2.png)
 
 
+One more thing that may still confuse the **Windows users** is the accurate **path** of **R binary** from the **conda environment**. The usual full path should be like `C:\Users\<username>\Miniconda3\envs\bridging_python_r\lib\R\bin\x64\R`, and one can refer to it within your own directory.
 
 
 
