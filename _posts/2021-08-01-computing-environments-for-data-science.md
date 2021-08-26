@@ -657,7 +657,7 @@ During this post, the steps to use `conda` to manage **Python** and **R** enviro
 
 * For the materials of Python programming, please check [Python Programming for Economics and Finance](https://python-programming.quantecon.org/intro.html)
 
-* For the materials of data processing using Python, please check Chapter 2 - 10 in [Python for Data Analysis, 2nd Edition](https://github.com/wesm/pydata-book)
+* For the materials of data processing using Pandas, please check Chapter 2 - 4 in [Hands-On Data Analysis with Pandas – Second Edition](https://github.com/stefmolin/Hands-On-Data-Analysis-with-Pandas-2nd-edition)
 
 * For the materials for R preview, please check Part 1 and Part 2 in [Practical Data Science](https://m-clark.github.io/data-processing-and-visualization/)
 
